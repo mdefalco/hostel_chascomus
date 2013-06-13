@@ -2,7 +2,8 @@
 html, body {width:100%; padding:0; margin:0;}
 
 body { 	 
-	font: 14px/18px "Times New Roman", Times, serif;
+
+	font: 14px/18px "Times", Times, serif;
 	color:#6f6f6f;
 	min-width:1024px;
 	background: #262626;
@@ -27,9 +28,9 @@ a.clr-1:hover {text-decoration:underline;}
 
 .text-1 {font-size:18px; line-height:25px; color:#fff; font-style:italic;}
 
-h2 { font-size:28px; line-height:36px; color:#f1814a; font-weight:bold; font-style:italic;}
+h2 { font-size:24px; line-height:36px; color:#f1814a; font-weight:bold; font-style:italic;}
 .h2 {border-bottom:#353535 1px solid; padding-bottom:7px;}
-h3 { font-size:24px; line-height:30px; color:#f1814a; font-weight:normal; font-style:italic; }
+h3 { font-size:20px; line-height:30px; color:#f1814a; font-weight:normal; font-style:italic; }
 .h3 {border-bottom:#353535 1px solid;padding-top:5px;padding-bottom:8px;}
 .h3-2 {padding-top:5px;padding-bottom:17px;}
 
@@ -93,10 +94,10 @@ h1 {display:inline-block; z-index:100; position:absolute; top:0; left:425px; z-i
 #index h1 {display:inline-block; z-index:100; position:absolute; top:-6px; left:200px; z-index:1000;}
 
 
-ul.menu {display:inline-block;display:block; padding:55px 0 39px 80px; }
+ul.menu {display:inline-block;display:block; padding:55px 0 39px 80px; width: 1333px; }
 ul.menu li {float:left; display:inline-block; line-height:24px; background:url(../images/li.png) 0 0 no-repeat; padding:0 34px 0 43px; }
 ul.menu li.li-none {background:transparent;}
-ul.menu li.li-left {margin-left:200px;} 
+ul.menu li.li-left {margin-left:43px;} 
 ul.menu li a {font-size:18px; line-height:24px; color:#fff; font-style:italic; display:inline-block;}
 ul.menu li a:hover , ul.menu li.current a { color:#f1814a;}
 
@@ -171,3 +172,6 @@ dl dd a:hover {}
 .btns {text-align:right; margin-left:0px; overflow:hidden;}
 .btns a.link-1 {display:inline-block; margin:14px 0px 0 25px; }
 .title-services {font-size:16px;font-weight:bold; font-family: "Times New Roman", Times, serif; color:#f1814a;}
+.servicios_hostel li{ margin-left:20px }
+
+#bienvenidos .col-2 { width: 550px; }
