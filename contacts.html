@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Contacto</title>
+    <link type="image/x-icon" href="images/MiniLogo.png" rel="shortcut icon"/>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
@@ -43,16 +44,6 @@
                     <li class="current"><a href="contacts.html">Contacto</a></li>
 
                 </ul>
-
-
-                <!-- <ul class="menu">
-                    <li class="current li-none"><a href="index.html">Inicio</a></li>
-                    <li><a href="about.html">Quienes somos?</a></li>
-                    <li class="li-left li-none"><a href="portfolio.html">Galeria</a></li>
-                    <li><a href="services.html">Servicios</a></li>
-                    <li><a href="contacts.html">Contacto</a></li>
-                </ul> -->
-                <!-- <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1> -->
             </nav>
         </div>
     </div>
@@ -76,8 +67,8 @@
                     <form id="form" method="post" action="js/sendEmail.php">
                       <fieldset>
                         <label><input type="text" name="nombre" placeholder="Nombre" required></label>
-                        <label><input type="text" name="email" placeholder="Email" required></label>
-                        <label><textarea name="mensaje" placeholder="Mensaje"></textarea></label>
+                        <label><input type="email" name="email" placeholder="Email" required></label>
+                        <label><textarea name="mensaje" placeholder="Mensaje" required></textarea></label>
                         <div class="btns">
                           <a href="#" class="link-1">Borrar</a>
                           <a href="#" class="link-1" onClick="document.getElementById('form').submit()">Enviar</a>
@@ -102,6 +93,7 @@
     </section> 
 <!--==============================footer=================================-->
     <footer>
+      <?php  $mesaje ?>
        <!--  <span><strong>© 2012 Paris Clarks</strong><br><span>Selection of free web templates <a href="http://www.websitetemplatesonline.com" target="_blank">at this site</a>.</span><br/>
         <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link-2">Website Template</a> by TemplateMonster.com</span> -->
     </footer>	           
