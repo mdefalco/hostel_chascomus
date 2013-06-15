@@ -39,7 +39,7 @@
                     <li><a href="about.html">Quienes somos?</a></li>
                     <li><a href="portfolio.html">Galeria</a></li>
                     <li><a href="services.html">Servicios</a></li>
-                    <li class="current"><a href="contacts.html">Contacto</a></li>
+                    <li class="current"><a href="contacts.php">Contacto</a></li>
 
                 </ul>
             </nav>
@@ -92,7 +92,7 @@
 <!--==============================footer=================================-->
     <footer>
 
-       <!--  <span><strong>© 2012 Paris Clarks</strong><br><span>Selection of free web templates <a href="http://www.websitetemplatesonline.com" target="_blank">at this site</a>.</span><br/>
+       <span><strong>© 2012 Paris Clarks</strong><br><span>Selection of free web templates <a href="http://www.websitetemplatesonline.com" target="_blank">at this site</a>.</span><br/>
         <a rel="nofollow" href="http://www.templatemonster.com/" target="_blank" class="link-2">Website Template</a> by TemplateMonster.com</span> -->
     </footer>	           
 </body>
