@@ -39,6 +39,7 @@
                     <li><a href="about.html">Quienes somos?</a></li>
                     <li><a href="portfolio.html">Galeria</a></li>
                     <li><a href="services.html">Servicios</a></li>
+                    <li><a href="habitaciones.html">Habitaciones</a></li>
                     <li class="current"><a href="contacts.php">Contacto</a></li>
 
                 </ul>
@@ -64,8 +65,8 @@
                     <h2 class="h2 p2">Formulario Contacto</h2>
                     <form id="form" method="post" action="js/sendEmail.php">
                       <fieldset>
-                        <label><input type="text" name="nombre" placeholder="Nombre" required></label>
-                        <label><input type="email" name="email" placeholder="Email" required></label>
+                        <label><input type="text" name="nombre" placeholder="Nombre" required ></label>
+                        <label><input type="email" name="ejemplo@gmail.com" placeholder="Email" ></label>
                         <label><textarea name="mensaje" placeholder="Mensaje" required></textarea></label>
                         <div class="btns">
                           <a href="#" class="link-1">Borrar</a>
