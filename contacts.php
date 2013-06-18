@@ -1,7 +1,5 @@
 <?php 
-
-  if ($_POST["form_enviado"] != "") { // if page is not submitted to itself echo the form
-
+  if (isset($_POST["form_enviado"])) { // if page is not submitted to itself echo the form
      if ( $_POST["nombre"] != "" & $_POST["email"] != "" & $_POST["mensaje"] != "") {
 
 
@@ -78,7 +76,7 @@
     <div>
 
          <div id="index">
-            <h1><a href="index.html"><img src="images/LogoOrig.png" alt=""></a></h1>
+        <!--     <h1><a href="index.html"><img src="images/LogoOrig.png" alt=""></a></h1> -->
         </div>
 
         <div class="subpages-nav">
@@ -90,7 +88,8 @@
                     <li><a href="about.html">Quienes somos?</a></li>
                     <li><a href="portfolio.html">Galeria</a></li>
                     <li><a href="services.html">Servicios</a></li>
-                    <li class="current"><a href="contacts.html">Contacto</a></li>
+                    <li><a href="habitaciones.html">Habitaciones</a></li>
+                    <li class="current"><a href="contacts.php">Contacto</a></li>
 
                 </ul>
             </nav>
@@ -113,7 +112,7 @@
                 
                 <div class="col-4">
                     <h2 class="h2 p2">Formulario Contacto</h2>
-                    <form id="form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                    <form id="form" method="post" action="contacts.php">
                       <fieldset>
                         <label><input type="text" name="nombre" placeholder="Nombre" required></label>
                         <label><input type="email" name="email" placeholder="Email" required></label>
@@ -182,10 +181,10 @@
         </div>           
     </section> 
 <!--==============================footer=================================-->
-    <footer>
-          <span><strong>© 2013 DeC@r - Web Site Design</strong><br>
-          <span><strong> contacto@decar.com.ar</strong></span>
-    </footer>            
+    <footer>      
+            <p><strong>© 2013 DeC@r - Web Site Design</strong> </p>
+            <p><strong> contacto@decar.com.ar</strong></p> 
+    </footer>             
 </body>
 </html>
 
